@@ -3,7 +3,7 @@ const server = express()
 const bodyParser = require("body-parser")
 const cors = require('cors');
 require('dotenv').config()
-const Model = './model/model'
+const Model = requre('./model/model')
 
 server.use(bodyParser.json())
 
